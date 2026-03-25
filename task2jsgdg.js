@@ -8,7 +8,6 @@ function startProgram() {
 
         console.log("Number: " + i);
 
-        // check even or odd
         if (i % 2 === 0) {
             console.log("Even");
             evenCount++;
@@ -17,7 +16,6 @@ function startProgram() {
             oddCount++;
         }
 
-        // check divisibility
         if (i % 3 === 0 && i % 5 === 0) {
             console.log("Divisible by both 3 and 5");
         } else if (i % 3 === 0) {
